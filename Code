@@ -1,0 +1,162 @@
+package project1;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
+import java.util.Map;
+public class demo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//int[] x = new int[4];
+		//PROBLEM: GIVEN A STRING COUNT THE QUANTITY OF EACH CHARACTER 
+		Scanner sc = new Scanner(System.in);
+		String scnd = sc.next();
+		
+		
+		Map m = new HashMap();
+		for(int i = 0;i < scnd.length();i++) {
+			if(scnd.substring(i,i+1) == "a"){
+				int a = 1;
+				m.put("a",a);
+				a++;
+			}
+			if(scnd.substring(i,i+1) == "b"){
+				int b = 1;
+				m.put("b",b);
+				b++;
+			}
+			if(scnd.substring(i,i+1) == "c"){
+				int c = 1;
+				m.put("c",c);
+				c++;
+			}
+			if(scnd.substring(i,i+1) == "d"){
+				int d = 1;
+				m.put("d",d);
+				d++;
+			}
+			if(scnd.substring(i,i+1) == "e"){
+				int e = 1;
+				m.put("e",e);
+				e++;
+			}
+			if(scnd.substring(i,i+1) == "f"){
+				int f = 1;
+				m.put("f",f);
+				f++;
+			}
+			if(scnd.substring(i,i+1) == "g"){
+				int g = 1;
+				m.put("g",g);
+				g++;
+			}
+			if(scnd.substring(i,i+1) == "h"){
+				int h = 1;
+				m.put("h",h);
+				h++;
+			}
+			if(scnd.substring(i,i+1) == "i"){
+				int ii = 1;
+				m.put("i",ii);
+				ii++;
+			}
+			if(scnd.substring(i,i+1) == "j"){
+				int j = 1;
+				m.put("j",j);
+				j++;
+			}
+			if(scnd.substring(i,i+1) == "k"){
+				int k = 1;
+				m.put("k",k);
+				k++;
+			}
+			if(scnd.substring(i,i+1) == "l"){
+				int l = 1;
+				m.put("l",l);
+				l++;
+			}
+			if(scnd.substring(i,i+1) == "m"){
+				int mm = 1;
+				m.put("m",mm);
+				mm++;
+			}
+			if(scnd.substring(i,i+1) == "n"){
+				int n = 1;
+				m.put("n",n);
+				n++;
+			}
+			if(scnd.substring(i,i+1) == "o"){
+				int o = 1;
+				m.put("o",o);
+				o++;
+			}
+			if(scnd.substring(i,i+1) == "p"){
+				int p = 1;
+				m.put("p",p);
+				p++;
+			}
+			if(scnd.substring(i,i+1) == "q"){
+				int q = 1;
+				m.put("q",q);
+				q++;
+			}
+			if(scnd.substring(i,i+1) == "r"){
+				int r = 1;
+				m.put("r",r);
+				r++;
+			}
+			if(scnd.substring(i,i+1) == "s"){
+				int s = 1;
+				m.put("s",s);
+				s++;
+			}
+			if(scnd.substring(i,i+1) == "t"){
+				int t = 1;
+				m.put("t",t);
+				t++;
+			}
+			if(scnd.substring(i,i+1) == "u"){
+				int u = 1;
+				m.put("u",u);
+				u++;
+			}
+			if(scnd.substring(i,i+1) == "v"){
+				int v = 1;
+				m.put("v",v);
+				v++;
+			}
+			if(scnd.substring(i,i+1) == "w"){
+				int w = 1;
+				m.put("w",w);
+				w++;
+			}
+			if(scnd.substring(i,i+1) == "x"){
+				int x = 1;
+				m.put("x",x);
+				x++;
+			}
+			if(scnd.substring(i,i+1) == "y"){
+				int y = 1;
+				m.put("y",y);
+				y++;
+			}
+			if(scnd.substring(i,i+1) == "z"){
+				int z = 1;
+				m.put("z",z);
+				z++;
+			}
+			
+			
+			
+		}
+		System.out.println(m);
+	    
+	    
+	    
+	    
+		
+
+	}
+
+}
